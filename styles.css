@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: rgb(214, 212, 212);
+    width: 100%;
+    /* box-shadow: 2px black; */
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width:600px){
+    nav ul{
+        display: block;
+    }
+}
+nav ul .nav2{
+    display: flex;
+    margin-right: 20px;
+ 
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width:600px){
+    nav ul a{
+        color: black;
+        font-weight: 500;
+        font-family: cursive;
+    }
+}
+
+/* styling section1----------------------------------
+------------------------------------------------------------------> */
+.section1{
+    background-image: url(./images/hamburger.jpg);
+    height: 780px;
+    display: flex;
+}
+@media only screen and (max-width:600px){
+    .section1{
+       /* background-size:300px; */
+       background-position: center;
+       background-repeat: no-repeat;
+       
+    }
+}
+.section1 h1{
+    align-self: flex-end;
+    padding: 30px;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: gray;
+}
+
+
+/* styling section 2----------------------------------
+---------------------------------------------------------> */
+
+.section2{
+    /* max-width: 800px; */
+   margin: 40px;
+   display: grid;
+   grid-template-columns: 500px 500px;
+   justify-content: space-evenly;
+  
+}
+@media only screen and (max-width:600px){
+    .section2{
+        display: block;
+    }
+}
+.section2 .row1{
+    background-image: url(./images/tablesetting2.jpg);
+}
+
+.section2 .row2{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2em;
+    /* margin: auto; */
+}
+.section2 .row2 h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+}
+.section2 .row2 h2{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    
+}
+.section2 .row2 p{
+  text-align: justify;
+}
+
+/* styling section3----------------------------------
+-------------------------------------------> */
+.section3{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin: 100px;
+    margin-top: 150px;
+}
+@media only screen and (max-width:600px){
+    .section3{
+        display: block;
+          
+        
+    }
+}
+.section3 .row4{
+    line-height: 2.3em;
+    margin-top: 30px;
+}
+.section3 .row4 h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.section3 .row4 h2{
+    font-weight: 300;
+
+}
+.section3 .row4 p{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+ /* styling section4-----------------------------
+ ------------------------------------------------> */
+ .section4{
+    margin-top: 70px;
+ }
+ .section4 .row6 h1{
+    font-size: 2.3em;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+ .section4 .row6 p{
+    line-height: 1.4em;
+    margin-bottom: 20px;
+ }
+ .section4 .row6 .blue{
+    color: rgb(111, 111, 216);
+    font-weight: 800;
+ }
+ .section4 .row7 {
+    margin: 80px;
+    margin-top: 10px;
+ }
+ .section4 .row7 input{
+    padding: 19px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+   
+ }
+ .section4 .row7 button{
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(204, 204, 204);
+    padding: 13px;
+    font-size: 1.2em;
+ }
+
+
+
+ footer{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    padding: 50px;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(197, 197, 197);
+ }
